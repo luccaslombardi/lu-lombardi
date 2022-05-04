@@ -1,5 +1,5 @@
 import { FeedbackType, feedbackTypes } from ".."
-import { CloseButtom } from "../../CloseButtom"
+import { CloseButton } from "../../CloseButton"
 
 interface setFeedbackTypeProps {
     onFeedbackTypeChanged: (type: FeedbackType) => void
@@ -10,7 +10,7 @@ export function FeedbackTypeStep({onFeedbackTypeChanged}:setFeedbackTypeProps) {
 <>
         <header>
                 <span className="text-xl leading-6">Deixe seu feedback</span>
-                <CloseButtom />
+                <CloseButton />
             </header>
             
         <div className="flex py-8 gap-2 w-full">
