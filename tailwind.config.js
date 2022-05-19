@@ -1,6 +1,9 @@
 module.exports = {
   content: ["./src/**/*.tsx"],
   theme: {
+    fontFamily: {
+      signika: ['Signika Negative']
+    },
     extend: {
       colors: {
         brand: {

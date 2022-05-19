@@ -1,7 +1,15 @@
-import { Widget } from "./components/Widget"
+import { Header } from "./components/Header";
+import { Widget } from "./components/Widget";
+import { Profile } from "./pages/Index";
 
 export function App() {
   return (
-    <Widget />
-  )
+    <>
+      <Header />
+      <div className="flex h-screen">
+        <Profile />
+      </div>
+      <Widget />
+    </>
+  );
 }

@@ -3,5 +3,6 @@
 @tailwind utilities;
 
 body {
-    @apply bg-[#09090A] text-zinc-100;
+    @apply bg-gradient-to-r from-violet-900 to-indigo-900   text-zinc-200 font-signika
+    ;
 }
