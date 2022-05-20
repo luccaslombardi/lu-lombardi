@@ -2,7 +2,7 @@ import { AiFillGithub } from 'react-icons/ai';
 
 export function Header() {
   return (
-    <header className=" h-24 w-screen flex absolute justify-between flex-wrap items-center px-64 border-b border-violet-800 text-zinc-200">
+    <header className=" h-24 w-screen flex absolute justify-between flex-wrap items-center px-64 z-50">
       <div className="">
         <p>LOGOTIPO</p>
       </div>

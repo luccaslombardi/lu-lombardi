@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 body {
-    @apply bg-gradient-to-r from-violet-900 to-indigo-900   text-zinc-200 font-signika
+    @apply bg-[url('assets/background-image.jpg')] bg-cover text-zinc-200 font-signika
     ;
 }
+/* */
