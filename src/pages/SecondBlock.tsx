@@ -1,7 +1,7 @@
 export function SecondBlock() {
-    return(
-        <div className="flex h-screen w-auto bg-indigo-900  backdrop-blur-sm backdrop-brightness-50">
-              <div className="w-1/3 flex flex-col text-center items-center gap-8">
+  return (
+    <div className="flex h-screen w-auto bg-indigo-900  backdrop-blur-sm backdrop-brightness-50">
+      <div className="w-1/3 flex flex-col text-center items-center gap-8">
         <img
           src="https://media-exp1.licdn.com/dms/image/C4D03AQFYGCyOL7EDIw/profile-displayphoto-shrink_200_200/0/1642860856006?e=1658361600&v=beta&t=WjupcXbihaal7RIAdEap-_KCciQjVlqCu3cm8oJSzD4"
           alt="Luccas Lombardi"
@@ -25,7 +25,7 @@ export function SecondBlock() {
           <section className="">Oi</section>
         </div>
       </div>
-        </div>
-        
-    )
+    </div>
+
+  )
 }
