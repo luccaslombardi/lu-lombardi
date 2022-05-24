@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 body {
-    @apply bg-[url('assets/background-image.jpg')] bg-cover text-zinc-200 font-signika overflow-x-hidden
+    @apply bg-[url('assets/background-image.png')] bg-cover text-zinc-200 font-roboto overflow-x-hidden
     ;
 }
-/* */

@@ -2,7 +2,8 @@ module.exports = {
   content: ["./src/**/*.tsx"],
   theme: {
     fontFamily: {
-      signika: ['Signika Negative']
+      lexend: ["Lexend Deca"],
+      roboto: ["Roboto"],
     },
     extend: {
       colors: {
@@ -12,12 +13,9 @@ module.exports = {
         },
       },
       borderRadius: {
-        md: "4px"
-      }
+        md: "4px",
+      },
     },
   },
-  plugins: [
-    require('@tailwindcss/forms'),
-    require('tailwind-scrollbar')
-  ],
+  plugins: [require("@tailwindcss/forms"), require("tailwind-scrollbar")],
 };
