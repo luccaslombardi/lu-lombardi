@@ -1,7 +1,27 @@
 import { BsGithub, BsInstagram, BsLinkedin, BsSpotify } from "react-icons/bs";
 
+export const socialMedia = {
+  INSTAGRAM:{
+    img: <BsInstagram />,
+    link: "https://instagram.com/luccas_lombardi"
+  },
+  LINKEDIN:{
+    img: <BsLinkedin />,
+    link: "https://linkedin.com/in/luccas-lombardi"
+  },
+  GITHUB:{
+    img: <BsGithub />,
+    link: "https://github.com/luccaslombardi"
+  },
+  SPOTIFY:{
+    img: <BsSpotify />,
+    link: "https://open.spotify.com/user/22e533ad6qd7zck44ydhf2omi?si=96762ccd294445c0"
+  },
+}
+
 export function FirstBlock() {
   return (
+    <div className="flex h-screen w-screen justify-center bg-[url('assets/background-image.png')] bg-cover">
     <div className="container w-auto flex flex-col m-auto items-center drop-shadow-lg gap-3">
       <div className=" bg-[#364865] bg-opacity-40 flex flex-col text-center items-center rounded-full p-8 z-10 drop-shadow-2xl">
         <img
@@ -14,12 +34,14 @@ export function FirstBlock() {
         <h1 className="lg:text-3xl md:text-2xl">LUCCAS LOMBARDI</h1>
         <h3 className="lg:text-lg md:text-base font-extralight">Desenvolvedor Frontend</h3>
         <div className="flex justify-between text-center items-center gap-8 m-auto py-5">
-          <a href="https://instagram.com/luccas_lombardi" target="blank" className="hover:mt-[-3px] hover:mb-[3px] ease-in-out duration-200"><BsInstagram size={30} /></a>
-          <a href="https://linkedin.com/in/luccas-lombardi" target="blank" className="hover:mt-[-3px] hover:mb-[3px] ease-in-out duration-200"><BsLinkedin size={30} /></a>
-          <a href="https://github.com/luccaslombardi" target="blank" className="hover:mt-[-3px] hover:mb-[3px] ease-in-out duration-200"><BsGithub size={30} /></a>
-          <a href="https://open.spotify.com/user/22e533ad6qd7zck44ydhf2omi?si=96762ccd294445c0" target="blank" className="hover:mt-[-3px] hover:mb-[3px] ease-in-out duration-200"><BsSpotify size={30} /></a>
+          {Object.entries(socialMedia).map(([key, value])=> {
+            return(
+              <a key={key} href={value.link} title={key} target="blank" className="hover:mt-[-3px] hover:mb-[3px] ease-in-out duration-200 text-3xl">{value.img}</a>
+            )
+          })}
         </div>
       </div>
+    </div>
     </div>
   );
 }
