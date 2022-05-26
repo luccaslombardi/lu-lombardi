@@ -19,7 +19,7 @@ export const socialMedia = {
   },
 }
 
-export function FirstBlock() {
+export function Introduction() {
   return (
     <div className="flex h-screen w-screen justify-center bg-[url('assets/background-image.png')] bg-cover">
     <div className="container w-auto flex flex-col m-auto items-center drop-shadow-lg gap-3">

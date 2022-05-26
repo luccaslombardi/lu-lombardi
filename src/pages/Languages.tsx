@@ -40,7 +40,7 @@ const languages = {
   },
 };
 
-export function ThirdBlock() {
+export function Languages() {
   return (
     <div className="m-auto w-2/5 max-w-3xl grid grid-cols-3 gap-14 py-10">
       {Object.entries(languages).map(([key, value]) => {

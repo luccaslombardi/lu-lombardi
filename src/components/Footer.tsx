@@ -1,4 +1,4 @@
-import { socialMedia } from "../pages/FirstBlock";
+import { socialMedia } from "../pages/Introduction";
 import { BiUpArrow } from "react-icons/bi";
 
 export function Footer() {

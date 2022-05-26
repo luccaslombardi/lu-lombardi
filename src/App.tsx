@@ -1,16 +1,17 @@
-import { Footer } from "./components/Footer";
-import { Header } from "./components/Header";
+
 import { Widget } from "./components/Widget";
-import { FirstBlock } from "./pages/FirstBlock";
-import { SecondBlock } from "./pages/SecondBlock";
-import { ThirdBlock } from "./pages/ThirdBlock";
+import { Introduction } from "./pages/Introduction";
+import { About } from "./pages/About";
+import { Languages } from "./pages/Languages";
+import { Experiences } from "./pages/Experiences";
 
 export function App() {
   return (
     <>
-      <FirstBlock />
-      <SecondBlock />
-      <ThirdBlock />
+      <Introduction />
+      <About />
+      <Languages />
+      <Experiences />
       <Widget />
     </>
   );
