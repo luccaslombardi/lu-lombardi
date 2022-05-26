@@ -47,7 +47,7 @@ export function ThirdBlock() {
         return (
           <div
             key={key}
-            className={`flex items-center group py-8 px-10  justify-self-center bg-[#233146] justify-center text-5xl rounded-lg hover:px-14 hover:rounded-2xl ${value.color} transition-all duration-500 drop-shadow-2xl`}
+            className={`flex items-center group py-8 px-10  justify-self-center bg-[#233146] justify-center text-5xl rounded-lg hover:px-14 hover:rounded-2xl ${value.color} transition-all duration-500 drop-shadow-2xl hover:z-10`}
           >
             {value.image}
             <span className="max-w-0 text-3xl hover:text-white overflow-hidden group-hover:max-w-xs transition-all duration-500 ease-linear">
