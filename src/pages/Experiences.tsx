@@ -19,7 +19,7 @@ export function Experiences() {
   }
 
   return (
-      <div className="flex flex-col pb-24 m-auto w-3/5 max-w-5xl px-10">
+      <div className="flex flex-col pb-24 m-auto w-4/5 max-w-6xl px-10">
           <div className=" border-b-[1px] border-zinc-700">
             <button onClick={setTab1} className="py-5 w-32">Brazil2Export</button>
             <button onClick={setTab2} className="py-5 w-32">Bradesco</button>

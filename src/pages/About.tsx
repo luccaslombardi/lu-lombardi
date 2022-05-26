@@ -4,33 +4,35 @@ export function About() {
   return (
     <div className="flex flex-col gap-4 text-center items-center justify-center w-auto pb-24">
       <div className="h-24 w-[2px] bg-gradient-to-b from-[#2d51bd] mb-10" />
-      <h1 className="text-5xl uppercase font-bold pb-4">Sobre mim</h1>
-      <div className="m-auto flex w-4/5 max-w-6xl justify-center items-center">
-        <div className=" w-3/5">
-          <h3>Sou Luccas,</h3>
-          <p className="px-8 text-base text-left">
+      
+      <h1 className=" w-3/5 text-5xl uppercase font-bold pb-4">Sobre mim</h1>
+
+      <div className="m-auto flex  w-4/5 max-w-6xl justify-between text-left items-center ">
+        <div className="pl-10 pr-20 w-3/5 text-base text-left font-light">
+          <h3 className="font-bold text-4xl mb-4 pb-4 mr-4 border-b-[1px] border-zinc-700">Prazer, Sou o Luccas!</h3>
+          <p>
             Sou formado em Ciência da Computação pela Universidade São Judas
             Tadeu. Atuo como desenvolvedor Frontend em busca de me tornar Full
             Stack.
           </p>
-          <p className="px-8 text-base text-left">
+          <p>
             Faço parte do mundo da programação há 6 anos. Uma das melhores
-            sensações para mim é ver algo ser construído do zero, passo a passo
-            ver algo tomando forma. Por isso um dos meus principais hobbies é
+            sensações é ver algo sendo construído do zero e passo a passo
+            tomar forma. 
+          </p>
+          <p>
+            Por isso um dos meus principais hobbies é
             criar aplicações autônomas utilizando diferentes ferramentas e
-            linguagens. Na minha jornada já passei por algumas linguagens como
-            Java, Python e Swift mas me apeguei à Javascript e suas vertentes
-            (React, Node, Typescript, HTML e CSS). Apaixonado por tecnologia e
-            desenvolvimento de softwares, procuro novos desafios para
-            desenvolver minhas habilidades, continuar evoluindo e adquirindo
-            experiência da área de TI. Meu objetivo é poder fazer parte de uma
-            empresa na qual eu possa aprender, ensinar e evoluir junto de todos,
-            não só no aspecto profissional e técnico, mas também pessoal e em
-            como agregar e somar no trabalho em equipe.
+            linguagens.
+          </p>
+          <p>
+            Na minha jornada já passei por algumas linguagens como
+            Java, Python e Swift mas me apeguei à Javascript e seu ecossistema
+            (React, Node, Typescript, HTML e CSS).
           </p>
         </div>
         <div className=" w-2/5">
-          <img src={CodingGif} alt="Coding" />
+          <img src={CodingGif} alt="Coding" className="w-auto h-auto" />
         </div>
       </div>
     </div>
