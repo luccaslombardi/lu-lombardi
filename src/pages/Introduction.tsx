@@ -29,7 +29,7 @@ export function Introduction() {
           alt="Luccas Lombardi"
           className="rounded-full lg:border-[20px] border-[#344c70] lg:w-[250px] md:w-[250px] md:border-[15px] " />
       </div>
-      <div className="lg:w-96 bg-[#1E293B] flex flex-col text-center items-center rounded-2xl pt-48 pb-8 px-8 mt-[-12rem] md:w-[21rem]">
+      <div className="lg:w-96 bg-[#1E223E] flex flex-col text-center items-center rounded-2xl pt-48 pb-8 px-8 mt-[-12rem] md:w-[21rem]">
         <span className="text-[#04D361] text-sm pb-1 ">HELLO WORLD!</span>
         <h1 className="lg:text-3xl md:text-2xl">LUCCAS LOMBARDI</h1>
         <h3 className="lg:text-lg md:text-base font-extralight">Desenvolvedor Frontend</h3>
