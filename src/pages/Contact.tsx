@@ -30,9 +30,9 @@ export function Contact() {
 
     return (
         <div className="flex justify-center bg-[#151d30] py-32 border-t-[1px] border-slate-700">
-            <div className="flex w-4/6 max-w-6xl gap-24 text-left">
-                <div className="w-1/2">
-                    <h1 className="text-left text-4xl uppercase font-bold pb-10">Entre em contato</h1>
+            <div className="flex w-4/5 md:w-4/6 max-w-6xl gap-24 text-left">
+                <div className="w-full md:w-1/2">
+                    <h1 className="text-left text-3xl md:text-4xl uppercase font-bold pb-10">Entre em contato</h1>
                     <form className="flex flex-col gap-8 items-end" onSubmit={submitContact}>
 
                         <input type="text" placeholder="Escreva seu nome/empresa" className="w-full bg-transparent placeholder-zinc-400 rounded-md border-slate-600 focus:border-x-brand-500 focus:ring-brand-500 focus:ring-1 focus:outline-none" onChange={event => setName(event.target.value)} />
@@ -51,7 +51,6 @@ export function Contact() {
                                     <Loading />
                                 </div>
                             ) : (
-
                                 <>
                                     ENVIAR
                                     <div className="text-md p-2 bg-violet-800 rounded-md"> <FiArrowUpRight /> </div>
@@ -60,7 +59,7 @@ export function Contact() {
                         </button>
                     </form>
                 </div>
-                <div className="flex w-1/2 items-center text-center">
+                <div className="hidden md:flex w-1/2 items-center text-center">
                     <img src={ContactGif} alt="Contact" />
                 </div>
             </div>
