@@ -8,10 +8,10 @@ export function Footer() {
         <div className="flex justify-between w-56">
           {Object.entries(socialMedia).map(([key, value]) => {
             return (
-                <a href={value.link} target="blank" title={key}> 
+              <a key={key} href={value.link} target="blank" title={key}>
                 <div key={key} className="p-3 text-2xl  text-slate-400 bg-zinc-800 bg-opacity-80 rounded-md hover:bg-[#2b305b] hover:bg-opacity-100 hover:text-white transition-all duration-200">
                   {value.img}
-              </div>
+                </div>
               </a>
             );
           })}
@@ -29,10 +29,10 @@ export function Footer() {
           </span>
         </div>
         <a href="#" title="Voltar ao topo">
-        <div className="text-2xl text-slate-400 p-3 bg-zinc-800 bg-opacity-70 rounded-md hover:bg-opacity-100 transition-all duration-200">
+          <div className="text-2xl text-slate-400 p-3 bg-zinc-800 bg-opacity-70 rounded-md hover:bg-opacity-100 transition-all duration-200">
             <BiUpArrow />
-            </div>
-          </a>
+          </div>
+        </a>
       </div>
     </footer>
   );
