@@ -1,4 +1,5 @@
 import { BsGithub, BsInstagram, BsLinkedin, BsSpotify } from "react-icons/bs";
+import ProfileImage from '../assets/profile.jpeg'
 
 export const socialMedia = {
   INSTAGRAM: {
@@ -25,9 +26,9 @@ export function Introduction() {
       <div className="container w-auto flex flex-col m-auto items-center drop-shadow-lg gap-3">
         <div className=" bg-[#364865] bg-opacity-40 flex flex-col text-center items-center rounded-full p-8 z-10 drop-shadow-2xl">
           <img
-            src="https://media-exp1.licdn.com/dms/image/C4D03AQFYGCyOL7EDIw/profile-displayphoto-shrink_200_200/0/1642860856006?e=1658361600&v=beta&t=WjupcXbihaal7RIAdEap-_KCciQjVlqCu3cm8oJSzD4"
+            src={ProfileImage}
             alt="Luccas Lombardi"
-            className="rounded-full  lg:border-[20px] border-[#344c70] lg:w-[250px] md:w-[250px] border-[15px] " />
+            className="rounded-full w-52 lg:border-[20px] border-[#344c70] lg:w-[250px] md:w-[250px] border-[15px] " />
         </div>
         <div className="w-80 lg:w-96 bg-[#1E223E] flex flex-col text-center items-center rounded-2xl pt-48 pb-8 px-8 mt-[-12rem] md:w-[21rem]">
           <span className="text-[#04D361] text-sm pb-1 ">HELLO WORLD!</span>

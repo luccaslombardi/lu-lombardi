@@ -3,9 +3,9 @@ import CodingGif from "../assets/coding.gif";
 export function About() {
   return (
     <div className="flex flex-col gap-4 text-center items-center justify-center w-auto pb-24">
-      <div className="h-24 w-[2px] bg-gradient-to-b items-center from-[#2d51bd] mb-10" />
+      <div className="h-24 w-[2px] bg-gradient-to-b items-center from-[#2d51bd] mb-10" id="about" />
 
-      <h1 className="w-3/5 text-4xl md:text-5xl uppercase font-bold">Sobre mim</h1>
+      <h1 className="w-3/5 text-4xl md:text-5xl uppercase font-bold" >Sobre mim</h1>
 
       <div className="m-auto flex flex-col md:flex-row w-full px-4 md:px-0 md:w-4/5 max-w-6xl justify-center md:justify-between text-center md:text-left items-center">
         <div className="px-8 md:pl-10 md:pr-20 md:w-3/5 text-base md:text-left font-light">

@@ -1,5 +1,6 @@
 import { socialMedia } from "../pages/Introduction";
 import { BiUpArrow } from "react-icons/bi";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 export function Footer() {
   return (
@@ -28,11 +29,11 @@ export function Footer() {
             </a>
           </span>
         </div>
-        <a href="#" title="Voltar ao topo">
+        <AnchorLink href="#top">
           <div className="text-xl md:text-2xl text-slate-400 p-2 md:p-3 bg-zinc-800 bg-opacity-70 rounded-md hover:bg-opacity-100 transition-all duration-200">
             <BiUpArrow />
           </div>
-        </a>
+        </AnchorLink>
       </div>
     </footer>
   );

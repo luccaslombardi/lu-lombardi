@@ -42,7 +42,7 @@ const languages = {
 
 export function Languages() {
   return (
-    <div className="flex flex-col gap-14 text-center m-auto max-w-3xl py-10">
+    <div className="flex flex-col gap-14 text-center m-auto max-w-3xl py-10" id="languages">
       <h1 className="text-4xl md:text-5xl uppercase font-bold pb-10 border-b-[1px] mx-8 md:mx-0 border-zinc-700 ">Linguagens e Ferramentas que mais Utilizo</h1>
       <div className="px-16 md:px-0 grid grid-cols-3 gap-8 md:gap-14">
         {Object.entries(languages).map(([key, value]) => {

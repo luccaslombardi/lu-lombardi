@@ -19,8 +19,8 @@ export function Experiences() {
   }
 
   return (
-    <div className="flex flex-col py-32 m-auto w-full md:w-4/5 max-w-6xl px-5 md:px-10">
-      <h1 className="text-4xl md:text-5xl uppercase font-bold pb-4 text-center">Experiências</h1>
+    <div className="flex flex-col py-32 m-auto w-full md:w-4/5 max-w-6xl px-5 md:px-10" >
+      <h1 className="text-4xl md:text-5xl uppercase font-bold pb-4 text-center " id="experiences">Experiências</h1>
       <div className=" border-b-[1px] border-zinc-700">
         <button onClick={setTab1} className="py-4 md:py-5 w-1/3 md:w-32 text-sm">Brazil2Export</button>
         <button onClick={setTab2} className="py-4 md:py-5 w-1/3 md:w-32 text-sm">Bradesco</button>
