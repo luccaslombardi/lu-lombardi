@@ -36,7 +36,7 @@ export function Contact() {
                     <form className="flex flex-col gap-8 items-end" onSubmit={submitContact}>
 
                         <input type="text" placeholder="Escreva seu nome/empresa" className="w-full bg-transparent placeholder-zinc-400 rounded-md border-slate-600 focus:border-x-brand-500 focus:ring-brand-500 focus:ring-1 focus:outline-none" onChange={event => setName(event.target.value)} />
-                        <input type="email" placeholder="Escreva seu e-mail" className="w-full bg-transparent placeholder-zinc-400 rounded-md border-slate-600 focus:border-x-brand-500 focus:ring-brand-500 focus:ring-1 focus:outline-none" onChange={event => setEmail(event.target.value)} />
+                        <input type="email" placeholder="Escreva seu e-mail" className="w-full peer bg-transparent placeholder-zinc-400 rounded-md border-slate-600 focus:border-x-brand-500 focus:ring-brand-500 focus:ring-1 focus:outline-none" onChange={event => setEmail(event.target.value)} />
                         <input type="text" placeholder="Qual assunto do e-mail" className="w-full bg-transparent placeholder-zinc-400 rounded-md border-slate-600 focus:border-x-brand-500 focus:ring-brand-500 focus:ring-1 focus:outline-none" onChange={event => setSubject(event.target.value)} />
                         <textarea placeholder="Escreva aqui sua mensagem..." className="w-full h-28 bg-transparent placeholder-zinc-400 rounded-md border-slate-600 focus:border-x-brand-500 focus:ring-brand-500 focus:ring-1 focus:outline-none scrollbar-thumb-zinc-700 scrollbar-track-transparent scrollbar-thin" onChange={event => setBody(event.target.value)} />
                         {!emailAlreadySended ? null : (
@@ -45,7 +45,7 @@ export function Contact() {
                             </div>
                         )}
 
-                        <button type="submit" className="flex items-center justify-between w-40 py-3 px-6 mr-4 bg-violet-700 rounded-lg hover:bg-violet-800 transition-colors duration-300 disabled:opacity-50 disabled:hover:bg-violet-700" disabled={name.length === 0 || email.length === 0 || subject.length === 0 || body.length === 0} >
+                        <button type="submit" className="group disabled:group1 flex items-center justify-between w-40 py-3 px-6 mr-4 bg-violet-700 rounded-lg hover:bg-violet-800 transition-colors duration-300 disabled:opacity-50 disabled:hover:bg-violet-700" disabled={name.length === 0 || email.length === 0 || subject.length === 0 || body.length === 0} >
                             {isSendingEmail ? (
                                 <div className="flex w-full justify-center">
                                     <Loading />
@@ -53,7 +53,7 @@ export function Contact() {
                             ) : (
                                 <>
                                     ENVIAR
-                                    <div className="text-md p-2 bg-violet-800 rounded-md"> <FiArrowUpRight /> </div>
+                                    <div className="text-md p-2 group-hover:rotate-45 group-disabled:rotate-0 transition-all duration-500 bg-violet-800 rounded-md"> <FiArrowUpRight /> </div>
                                 </>
                             )}
                         </button>

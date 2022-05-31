@@ -5,6 +5,8 @@ import {
   SiReact,
   SiNodedotjs,
   SiTypescript,
+  SiTailwindcss,
+  SiSass
 } from "react-icons/si";
 
 const languages = {
@@ -38,6 +40,21 @@ const languages = {
     image: <SiTypescript />,
     color: "hover:bg-[#2E72BC]",
   },
+  ReactNative: {
+    title: "React Native",
+    image: <SiReact />,
+    color: "hover:bg-[#2692b0]",
+  },
+  Tailwind: {
+    title: "Tailwind CSS",
+    image: <SiTailwindcss />,
+    color: "hover:bg-[#185c8d]",
+  },
+  SASS: {
+    title: "SASS",
+    image: <SiSass />,
+    color: "hover:bg-[#C76494]",
+  },
 };
 
 export function Languages() {
@@ -52,7 +69,7 @@ export function Languages() {
               className={`flex items-center group py-4 px-5 md:py-8 md:px-10 justify-self-center bg-violet-400 bg-opacity-10 justify-center text-3xl md:text-5xl rounded-lg hover:px-8 md:hover:px-14 hover:rounded-2xl ${value.color} transition-all duration-500 drop-shadow-2xl hover:z-10`}
             >
               {value.image}
-              <span className="max-w-0 text-xl md:text-3xl hover:text-white overflow-hidden group-hover:max-w-xs transition-all duration-500 ease-linear">
+              <span className="max-w-0 truncate text-xl md:text-3xl hover:text-white overflow-hidden group-hover:max-w-xs transition-all duration-500 ease-linear">
                 <span className="pl-2"></span>
                 {value.title}
               </span>
