@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const api = axios.create({
-    baseURL: import.meta.env.VITE_API_URL
+    baseURL: "https://feedback-widget-backend-production-476a.up.railway.app"
 })
 
 export const apiSend = axios.create({
