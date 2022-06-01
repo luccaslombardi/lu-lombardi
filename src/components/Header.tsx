@@ -15,6 +15,7 @@ export function Header() {
             <li className="inline px-4"><AnchorLink href='#about' className="hover:text-violet-300">Quem eu sou</AnchorLink></li>
             <li className="inline px-4"><AnchorLink href='#languages' className="hover:text-violet-300">Linguagens</AnchorLink></li>
             <li className="inline px-4"><AnchorLink href='#experiences' className="hover:text-violet-300">Experiências</AnchorLink></li>
+            <li className="inline px-4"><AnchorLink href='#projects' className="hover:text-violet-300">Projetos</AnchorLink></li>
             <li className="inline px-4"><AnchorLink href='#contact' className="hover:text-violet-300">Contato</AnchorLink></li>
           </ul>
           <a href="https://github.com/luccaslombardi/lu-lombardi" target="_blank" title="Projeto no Github" className="text-violet-700 hover:text-violet-500 transition-all duration-200">

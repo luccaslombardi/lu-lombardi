@@ -6,6 +6,7 @@ import { Languages } from "./pages/Languages";
 import { Experiences } from "./pages/Experiences";
 import { Study } from "./pages/Study";
 import { Contact } from "./pages/Contact";
+import { Projects } from "./pages/Projects";
 
 export function App() {
   return (
@@ -14,6 +15,7 @@ export function App() {
       <About />
       <Languages />
       <Experiences />
+      <Projects />
       <Study />
       <Contact />
       <Widget />

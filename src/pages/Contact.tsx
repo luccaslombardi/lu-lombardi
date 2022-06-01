@@ -29,7 +29,7 @@ export function Contact() {
     }
 
     return (
-        <div className="flex justify-center bg-[#151d30] py-32 border-t-[1px] border-slate-700" >
+        <div className="flex justify-center bg-[#151d30]  py-32 border-t-[1px] border-slate-700" >
             <div className="flex w-4/5 md:w-4/6 max-w-6xl gap-24 text-left">
                 <div className="w-full md:w-1/2" id="contact">
                     <h1 className="text-left text-3xl md:text-4xl uppercase font-bold pb-10">Entre em contato</h1>

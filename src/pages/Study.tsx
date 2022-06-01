@@ -32,7 +32,7 @@ const courses = {
 
 export function Study() {
     return (
-        <div className="flex flex-col justify-center items-center pb-16" id="study">
+        <div className="flex flex-col justify-center items-center py-24" id="study">
 
             <h1 className="text-center text-4xl md:text-5xl uppercase font-bold pb-20">quem me ajudou</h1>
 
