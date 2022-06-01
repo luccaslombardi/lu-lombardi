@@ -53,10 +53,10 @@ export function Projects() {
                 </div>
                
 
-                <p className="invisible group-hover:visible group-hover:text-base transition-all duration-200 text-justify">
+                <p className="invisible group-hover:visible group-hover:text-sm md:group-hover:text-base transition-all duration-200 text-justify">
                   {value.description}
                 </p>
-                <p className="invisible group-hover:visible group-hover:text-base transition-all duration-200">
+                <p className="invisible group-hover:visible group-hover:text-sm md:group-hover:text-base transition-all duration-200">
                   <strong>Tecnologias usadas:</strong> {value.technologies}
                 </p>
               </div>
