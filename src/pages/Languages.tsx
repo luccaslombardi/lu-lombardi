@@ -21,7 +21,7 @@ const languages = {
     color: "hover:bg-[#1185a9]",
   },
   Javascript: {
-    title: "Javascipt",
+    title: "Javascript",
     image: <SiJavascript />,
     color: "hover:bg-[#a5852d]",
   },
@@ -36,7 +36,7 @@ const languages = {
     color: "hover:bg-[#4F9640]",
   },
   Typescript: {
-    title: "Typescipt",
+    title: "Typescript",
     image: <SiTypescript />,
     color: "hover:bg-[#2E72BC]",
   },
