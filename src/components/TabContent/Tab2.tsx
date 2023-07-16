@@ -1,40 +1,39 @@
-import CyanCodeGif from "../../assets/cyan-code.gif"
+import PurpleCodeGif from "../../assets/purple-code.gif"
 
 export function Tab2() {
   return (
     <div className="flex ">
       <div className="flex flex-col w-full md:w-3/5 py-10 px-3 text-center md:text-left">
-        <h1 className="font-bold text-4xl md:text-5xl">
-          Bradesco S.A.
-        </h1>
-        <ul className="flex justify-center md:justify-start  pb-10 pt-4 text-base divide-x divide-solid">
-          <li className="pr-3">
-            Estágio (Gestão e Desenvolvimento de Produtos)
-          </li>
-          <li className="pl-3">2020 - 2021</li>
+        <h1 className="font-bold text-4xl md:text-5xl">Brazil2Export Ltda</h1>
+        <ul className="flex justify-center md:justify-start pb-10 pt-4 text-base divide-x divide-solid">
+          <li className="pr-3 ">Desenvolvedor Frontend</li>
+          <li className="pl-3">2021 - 2023</li>
         </ul>
         <div className="flex flex-col gap-1">
           <p className="font-light text-justify">
-            Reponsável por gerenciar e acompanhar erros nos produtos da carteira
-            de Crédito Imobiliário.
+            Brazil2Export é uma fábrica e exportadora de cosméticos.
           </p>
           <p className="font-light text-justify">
-            Participei do desenvolvimento e implementação do CRIM (Plataforma
-            que facilita o gerenciamento de documentos e a separação das
-            cartilhas de crédito imobiliário entre cliente e banco) utilizando
-            metodologia ágil <strong>SCRUM</strong>.
+            Atualmente desenvolvo sites de portifólio das marcas (
+            <strong>Wordpress, HTML, CSS e PHP</strong>).
           </p>
           <p className="font-light text-justify">
-            Ajudei a desenvolver Queries (<strong>SQL Server</strong>) para
-            geração de relatórios para a análise de possíveis erros que,
-            futuramente, poderiam gerar problemas para contratos de crédito
-            imobiliário.
+            Monitoro e soluciono problemas nos ambientes de produção
+            infraestrutura.
+          </p>
+          <p className="font-light text-justify">
+            Presto assistência para problemas relacionados à manutenção de
+            equipamentos.
+            <br /> Criei um serviço de E-commerce multivendedor para os produtos
+            comercializados pela empresa, assim como, empresas de cosméticos
+            terceirizados que têm parceira conosco.
           </p>
         </div>
       </div>
       <div className="hidden md:flex items-center justify-center w-2/5">
-        <img src={CyanCodeGif} alt="Cyan Gif" className="w-80 h-80" />
+        <img src={PurpleCodeGif} alt="Purple Gif" className="w-80 h-80" />
       </div>
+
     </div>
   );
 }

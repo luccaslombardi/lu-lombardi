@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 body {
-    @apply bg-slate-900 text-zinc-200 font-roboto overflow-x-hidden ;
+  @apply bg-slate-900 text-zinc-200 font-roboto overflow-x-hidden scrollbar-thin scrollbar-thumb-gray-800 scrollbar-track-transparent scrollbar-thumb-rounded;
 }
 
 #start {
-    color:blue!important;
+  color: blue !important;
 }
