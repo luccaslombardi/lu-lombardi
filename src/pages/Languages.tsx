@@ -23,7 +23,7 @@ const languages = {
   Nest: {
     title: "NestJs",
     image: <SiNestjs />,
-    color: "hover:bg-[#a5852d]",
+    color: "hover:bg-[#EA2857]",
   },
   React: {
     title: "ReactJS",
@@ -38,12 +38,12 @@ const languages = {
   Serverless: {
     title: "Serverless",
     image: <SiServerless />,
-    color: "hover:bg-[#4F9640]",
+    color: "hover:bg-[#CA4640]",
   },
   AWS: {
     title: "AWS",
     image: <SiAmazonaws />,
-    color: "hover:bg-[#2E72BC]",
+    color: "hover:bg-[#232F3E]",
   },
   Tailwind: {
     title: "Tailwind CSS",
