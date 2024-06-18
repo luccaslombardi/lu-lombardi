@@ -34,7 +34,7 @@ export function Introduction() {
         <div className="w-80 lg:w-96 bg-[#1E223E] flex flex-col text-center items-center rounded-2xl pt-48 pb-8 px-8 mt-[-12rem] md:w-[21rem]">
           <span className="text-[#04D361] text-sm pb-1 ">HELLO WORLD!</span>
           <h1 className="lg:text-3xl md:text-2xl">LUCCAS LOMBARDI</h1>
-          <h3 className="lg:text-lg md:text-base font-extralight">Desenvolvedor Frontend</h3>
+          <h3 className="lg:text-lg md:text-base font-extralight">Desenvolvedor Full Stack</h3>
           <div className="flex justify-between text-center items-center gap-8 m-auto py-5">
             {Object.entries(socialMedia).map(([key, value]) => {
               return (

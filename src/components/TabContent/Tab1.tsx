@@ -11,16 +11,19 @@ export function Tab1() {
         </ul>
         <div className="flex flex-col gap-1">
           <p className="font-light text-justify">
-            Atuo dentro do time de Sustentação dos produtos Digitais do banco.
+            Atuo como analista time de Sustentação, responsável por garantir a boa funcionalidade dos produtos digitais do Banco.
           </p>
           <p className="font-light text-justify">
-            Analiso erros e inconscistências em ambientes de Produção e Homologação, realizando o troubleshooting afim de identificar o ponto focal de causas raiz.
+            Analiso erros e inconscistências em ambientes de Produção e Homologação, realizando o troubleshooting afim de identificar as causas raiz.
+          </p>
+          <p className="font-light text-justify">
+            Code Review e controle de versionamento com Gitlab e/ou Github, utilizando as principais ferramentas da AWS (Elastic Beanstalk, Lambda, API Getaway, etc).
+          </p>
+          <p className="font-light text-justify">
+            Realizo a análise técnica de problemas encontrados e realizo a criação de escopos afim de mitigar erros e propor melhorias.
           </p>
           <p className="font-light text-justify">
             Organizo e acompanho implantações, correções e atualizações de funcionalidades presentes no Aplicativo do Banco ou produtos relacionados junto dos times de Projetos, Infraestrutra e Desenvolvedores.
-          </p>
-          <p className="font-light text-justify">
-            Realizo o levantamento de requisitos técnicos e analíticos de fornecedores para futuras implementações ou mudanças.
           </p>
           <p className="font-light text-justify">
             Análise de Códigos construídos utilizando .NET, React, React Native, Node, Nest, Java e Python.

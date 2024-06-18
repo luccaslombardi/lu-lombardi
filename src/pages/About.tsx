@@ -23,17 +23,19 @@ export function About() {
             <b>Analista de Desenvolvimento de Sistemas</b> no Banco Digimais.
           </p>
           <p className="text-justify md:text-left pb-2">
-            Faço parte do mundo da programação há mais de 6 anos e apesar de
-            estar me especializando em desenvolvimento <b>Frontend</b>, também
-            tenho foco em me tornar <b>Fullstack</b>.
+            Faço parte do mundo da programação há mais de 6 anos e estou me 
+            especializando em Typescript e Node, em busca me tornar <b>Full Stack</b>.
           </p>
           <p className="text-justify md:text-left pb-2">
             Por isso um dos meus principais hobbies é criar aplicações autônomas
-            utilizando diferentes ferramentas e linguagens.
+            utilizando diferentes ferramentas e frameworks.
           </p>
           <p className="text-justify md:text-left pb-2">
             Na minha jornada já passei por algumas linguagens como Java, Python
             e .NET mas me apeguei à Typescript e seu ecossistema (React, React Native, Node, Nest, entre outros).
+          </p>
+          <p className="text-justify md:text-left pb-2">
+            Ultimamente tenho focado em conceitos de devOps como Docker, Kumbernets e Conteinerização em geral.
           </p>
         </div>
         <div className="w-4/5 md:w-2/5">

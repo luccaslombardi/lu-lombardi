@@ -1,28 +1,28 @@
 import {
-  SiCss3,
-  SiHtml5,
-  SiJavascript,
   SiReact,
   SiNodedotjs,
   SiTypescript,
   SiTailwindcss,
-  SiSass
+  SiSass,
+  SiNestjs,
+  SiServerless,
+  SiAmazonaws
 } from "react-icons/si";
 
 const languages = {
-  HTML: {
-    title: "HTML",
-    image: <SiHtml5 />,
-    color: "hover:bg-[#b65227]",
+  Typescript: {
+    title: "Typescript",
+    image: <SiTypescript />,
+    color: "hover:bg-[#2E72BC]",
   },
-  CSS: {
-    title: "CSS",
-    image: <SiCss3 />,
-    color: "hover:bg-[#1185a9]",
+  Node: {
+    title: "NodeJS",
+    image: <SiNodedotjs />,
+    color: "hover:bg-[#4F9640]",
   },
-  Javascript: {
-    title: "Javascript",
-    image: <SiJavascript />,
+  Nest: {
+    title: "NestJs",
+    image: <SiNestjs />,
     color: "hover:bg-[#a5852d]",
   },
   React: {
@@ -30,20 +30,20 @@ const languages = {
     image: <SiReact />,
     color: "hover:bg-[#2692b0]",
   },
-  Node: {
-    title: "NodeJS",
-    image: <SiNodedotjs />,
-    color: "hover:bg-[#4F9640]",
-  },
-  Typescript: {
-    title: "Typescript",
-    image: <SiTypescript />,
-    color: "hover:bg-[#2E72BC]",
-  },
   ReactNative: {
     title: "React Native",
     image: <SiReact />,
     color: "hover:bg-[#2692b0]",
+  },
+  Serverless: {
+    title: "Serverless",
+    image: <SiServerless />,
+    color: "hover:bg-[#4F9640]",
+  },
+  AWS: {
+    title: "AWS",
+    image: <SiAmazonaws />,
+    color: "hover:bg-[#2E72BC]",
   },
   Tailwind: {
     title: "Tailwind CSS",
